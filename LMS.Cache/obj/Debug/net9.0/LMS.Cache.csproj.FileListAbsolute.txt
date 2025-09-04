@@ -1,0 +1,17 @@
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Cache.deps.json
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Cache.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Cache.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Core.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Core.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.csproj.AssemblyReference.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.AssemblyInfoInputs.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.AssemblyInfo.cs
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.csproj.CoreCompileInputs.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.csproj.Up2Date
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\refint\LMS.Cache.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\LMS.Cache.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\obj\Debug\net9.0\ref\LMS.Cache.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Models.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Cache\bin\Debug\net9.0\LMS.Models.pdb

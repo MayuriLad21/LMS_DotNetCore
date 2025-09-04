@@ -1,0 +1,12 @@
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\bin\Debug\net9.0\LMS.Models.deps.json
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\bin\Debug\net9.0\LMS.Models.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\bin\Debug\net9.0\LMS.Models.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.AssemblyInfoInputs.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.AssemblyInfo.cs
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.csproj.CoreCompileInputs.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\refint\LMS.Models.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\ref\LMS.Models.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Models\obj\Debug\net9.0\LMS.Models.csproj.AssemblyReference.cache

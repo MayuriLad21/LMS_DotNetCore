@@ -1,0 +1,970 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|solutionrelative:lms.data\\sqldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\repository\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\repository\\contentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\icontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\icontentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\icourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\ianalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\ianalyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|solutionrelative:lms.data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.data\\analyticsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|solutionrelative:lms.data\\analyticsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\analyticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\repository\\analyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\repository\\analyticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\postgres\\topcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\postgres\\topcoursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\analyticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\postgres\\dimcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\postgres\\dimcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\postgres\\dimuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\postgres\\dimuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\postgres\\factengagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\postgres\\factengagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\postgres\\factcourseprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\postgres\\factcourseprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\postgres\\dimdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\postgres\\dimdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\lms.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\lms.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\gradecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\grademodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\grademodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\contentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\contentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\gradehistorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\gradehistorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\repository\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\repository\\graderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\gradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\igraderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\igradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\controllers\\contentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\contentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\contentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\icontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\icontentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\metadatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\metadatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\services\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\services\\mongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.business\\lms.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{52CEB4A8-2ECD-4963-9F45-6341865CA6BA}|LMS.Business\\LMS.Business.csproj|solutionrelative:lms.business\\lms.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\documentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.core\\interfaces\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3D31C36-C99C-4ED6-9F9F-6588715DB248}|LMS.Core\\LMS.Core.csproj|solutionrelative:lms.core\\interfaces\\imongorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\notificationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\commentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\discussionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\discussionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\clientinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\clientinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\logentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\logentrymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\mongo\\documentversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\mongo\\documentversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.data\\migrations\\sqldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|solutionrelative:lms.data\\migrations\\sqldbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\dtos\\coursedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\lms.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\lms.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.webapi\\lms.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{925D9F6D-6124-4B6A-ADF7-819EF7E06DE4}|LMS.WebApi\\LMS.WebApi.csproj|solutionrelative:lms.webapi\\lms.webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A97908-51F8-40F0-B7DA-BB1CB0453915}|LMS.Models\\LMS.Models.csproj|solutionrelative:lms.models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|c:\\mayuri\\projects\\lms_dotnetcore\\lms_web\\lms.data\\migrations\\20250826125955_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E282585-79C4-48F4-B564-95288A18BBF4}|LMS.Data\\LMS.Data.csproj|solutionrelative:lms.data\\migrations\\20250826125955_seedinitialdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\ICourseService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:11:41.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IContentService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IContentService.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IContentService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IContentService.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IContentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T04:50:51.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContentRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Repository\\ContentRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Repository\\ContentRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Repository\\ContentRepository.cs",
+              "RelativeToolTip": "LMS.Business\\Repository\\ContentRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:23:55.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Program.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Program.cs",
+              "RelativeToolTip": "LMS.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T11:44:50.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlDbContext.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\SqlDbContext.cs",
+              "RelativeDocumentMoniker": "LMS.Data\\SqlDbContext.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\SqlDbContext.cs",
+              "RelativeToolTip": "LMS.Data\\SqlDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwv3QAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T18:40:45.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "LMS.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\appsettings.json",
+              "RelativeToolTip": "LMS.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T11:44:53.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IAnalyticsRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IAnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IAnalyticsRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IAnalyticsRepository.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IAnalyticsRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T22:41:17.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T14:03:09.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:35:55.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:10:05.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "LMS.Data\\MongoDbContext.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\MongoDbContext.cs",
+              "RelativeToolTip": "LMS.Data\\MongoDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:00:43.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnalyticsDbContext.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\AnalyticsDbContext.cs",
+              "RelativeDocumentMoniker": "LMS.Data\\AnalyticsDbContext.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\AnalyticsDbContext.cs",
+              "RelativeToolTip": "LMS.Data\\AnalyticsDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:15:23.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\CourseService.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:11:17.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AnalyticsController.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\AnalyticsController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\AnalyticsController.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\AnalyticsController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\AnalyticsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T22:45:04.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:39:29.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\UserService.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\UserService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T14:02:29.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AnalyticsService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\AnalyticsService.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\AnalyticsService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\AnalyticsService.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\AnalyticsService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T22:44:11.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AnalyticsRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Repository\\AnalyticsRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Repository\\AnalyticsRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Repository\\AnalyticsRepository.cs",
+              "RelativeToolTip": "LMS.Business\\Repository\\AnalyticsRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAASwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T22:42:41.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TopCourseDto.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\TopCourseDto.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\postgres\\TopCourseDto.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\TopCourseDto.cs",
+              "RelativeToolTip": "LMS.Models\\postgres\\TopCourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T22:50:21.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DimCourse.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\DimCourse.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\postgres\\DimCourse.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\DimCourse.cs",
+              "RelativeToolTip": "LMS.Models\\postgres\\DimCourse.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:17:52.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DimUser.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\DimUser.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\postgres\\DimUser.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\DimUser.cs",
+              "RelativeToolTip": "LMS.Models\\postgres\\DimUser.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:17:15.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FactEngagement.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\FactEngagement.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\postgres\\FactEngagement.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\FactEngagement.cs",
+              "RelativeToolTip": "LMS.Models\\postgres\\FactEngagement.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:20:14.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FactCourseProgress.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\FactCourseProgress.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\postgres\\FactCourseProgress.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\FactCourseProgress.cs",
+              "RelativeToolTip": "LMS.Models\\postgres\\FactCourseProgress.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:19:26.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DimDate.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\DimDate.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\postgres\\DimDate.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\postgres\\DimDate.cs",
+              "RelativeToolTip": "LMS.Models\\postgres\\DimDate.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T20:18:53.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IGradeRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IGradeRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IGradeRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IGradeRepository.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IGradeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T18:13:42.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ContentModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\ContentModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\ContentModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\ContentModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\ContentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T17:51:09.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GradeController.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\GradeController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\GradeController.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\GradeController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\GradeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwB8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T18:10:30.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LMS.Models.csproj",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\LMS.Models.csproj",
+              "RelativeDocumentMoniker": "LMS.Models\\LMS.Models.csproj",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\LMS.Models.csproj",
+              "RelativeToolTip": "LMS.Models\\LMS.Models.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-24T18:37:22.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GradeRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Repository\\GradeRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Repository\\GradeRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Repository\\GradeRepository.cs",
+              "RelativeToolTip": "LMS.Business\\Repository\\GradeRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T18:13:25.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GradeModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\GradeModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\GradeModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\GradeModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\GradeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:04:48.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GradeHistoryModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\GradeHistoryModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\GradeHistoryModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\GradeHistoryModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\GradeHistoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:05:23.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GradeService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\GradeService.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\GradeService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\GradeService.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\GradeService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T18:12:31.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IGradeService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IGradeService.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IGradeService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IGradeService.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IGradeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T18:12:53.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ContentService.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\ContentService.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\ContentService.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\ContentService.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\ContentService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:21:24.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ContentController.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\ContentController.cs",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Controllers\\ContentController.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Controllers\\ContentController.cs",
+              "RelativeToolTip": "LMS.WebApi\\Controllers\\ContentController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwCgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:30:32.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IContentRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IContentRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IContentRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IContentRepository.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IContentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T21:12:33.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MetadataModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\MetadataModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\MetadataModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\MetadataModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\MetadataModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:04:09.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MongoRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\MongoRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Business\\Services\\MongoRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\Services\\MongoRepository.cs",
+              "RelativeToolTip": "LMS.Business\\Services\\MongoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:15:28.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DocumentModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\DocumentModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\DocumentModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\DocumentModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\DocumentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:05:56.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LMS.Business.csproj",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\LMS.Business.csproj",
+              "RelativeDocumentMoniker": "LMS.Business\\LMS.Business.csproj",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Business\\LMS.Business.csproj",
+              "RelativeToolTip": "LMS.Business\\LMS.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-24T13:39:07.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IMongoRepository.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IMongoRepository.cs",
+              "RelativeDocumentMoniker": "LMS.Core\\Interfaces\\IMongoRepository.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Core\\Interfaces\\IMongoRepository.cs",
+              "RelativeToolTip": "LMS.Core\\Interfaces\\IMongoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:13:47.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\MongoDbSettings.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\MongoDbSettings.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:32:29.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "NotificationModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\NotificationModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\NotificationModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\NotificationModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\NotificationModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:09:01.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CommentModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\CommentModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\CommentModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\CommentModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\CommentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:08:27.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DiscussionModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\DiscussionModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\DiscussionModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\DiscussionModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\DiscussionModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:07:55.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ClientInfo.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\ClientInfo.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\ClientInfo.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\ClientInfo.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\ClientInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:07:30.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LogEntryModel.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\LogEntryModel.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\LogEntryModel.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\LogEntryModel.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\LogEntryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:06:55.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DocumentVersion.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\DocumentVersion.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Mongo\\DocumentVersion.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Mongo\\DocumentVersion.cs",
+              "RelativeToolTip": "LMS.Models\\Mongo\\DocumentVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T19:06:22.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SqlDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\Migrations\\SqlDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "LMS.Data\\Migrations\\SqlDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\Migrations\\SqlDbContextModelSnapshot.cs",
+              "RelativeToolTip": "LMS.Data\\Migrations\\SqlDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T18:02:54.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CourseDto.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\DTOs\\CourseDto.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\DTOs\\CourseDto.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\DTOs\\CourseDto.cs",
+              "RelativeToolTip": "LMS.Models\\DTOs\\CourseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T14:12:43.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20250826125955_SeedInitialData.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\Migrations\\20250826125955_SeedInitialData.cs",
+              "RelativeDocumentMoniker": "LMS.Data\\Migrations\\20250826125955_SeedInitialData.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\Migrations\\20250826125955_SeedInitialData.cs",
+              "RelativeToolTip": "LMS.Data\\Migrations\\20250826125955_SeedInitialData.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T12:59:55.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\UserRole.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\UserRole.cs",
+              "RelativeToolTip": "LMS.Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T18:38:37.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Course.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Course.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Course.cs",
+              "RelativeToolTip": "LMS.Models\\Course.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T18:39:04.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Enrollment.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Enrollment.cs",
+              "RelativeToolTip": "LMS.Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T18:39:25.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Role.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\Role.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\Role.cs",
+              "RelativeToolTip": "LMS.Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T18:38:12.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "LMS.WebApi.csproj",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\LMS.WebApi.csproj",
+              "RelativeDocumentMoniker": "LMS.WebApi\\LMS.WebApi.csproj",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\LMS.WebApi.csproj",
+              "RelativeToolTip": "LMS.WebApi\\LMS.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-24T12:02:29.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "LMS.WebApi",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\LMS.WebApi.csproj",
+              "RelativeDocumentMoniker": "LMS.WebApi\\LMS.WebApi.csproj",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\LMS.WebApi.csproj",
+              "RelativeToolTip": "LMS.WebApi\\LMS.WebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-24T14:52:06.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LMS.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LMS.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T14:56:11.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "LMS.Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\LoginRequest.cs",
+              "RelativeToolTip": "LMS.Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:55:02.475Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Logging.deps.json
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Logging.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Logging.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Core.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Core.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.csproj.AssemblyReference.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.AssemblyInfoInputs.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.AssemblyInfo.cs
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.csproj.CoreCompileInputs.cache
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logg.F47B2D4D.Up2Date
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\refint\LMS.Logging.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\LMS.Logging.pdb
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\obj\Debug\net9.0\ref\LMS.Logging.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Models.dll
+C:\Mayuri\Projects\LMS_DotNetCore\LMS_Web\LMS.Logging\bin\Debug\net9.0\LMS.Models.pdb
