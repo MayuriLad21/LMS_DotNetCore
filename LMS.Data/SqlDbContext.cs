@@ -1,4 +1,4 @@
-﻿using LMS.Models;
+﻿using LMS.Models.SQL;
 using Microsoft.EntityFrameworkCore;
 
 namespace LMS.Data
@@ -55,6 +55,21 @@ namespace LMS.Data
                 .WithMany(c => c.Enrollments)
                 .HasForeignKey(e => e.CourseId);
 
+            modelBuilder.Entity<Assessments>()
+           .HasOne(a => a.Course)
+          .WithMany(c => c.Assessment)
+          .HasForeignKey(a => a.CourseId);
+
+            modelBuilder.Entity<AssessmentSubmission>()
+                .HasOne(s => s.Assessment)
+                .WithMany(a => a.Submissions)
+                .HasForeignKey(s => s.AssessmentId);
+
+            modelBuilder.Entity<AssessmentSubmission>()
+                .HasOne(s => s.User)
+                .WithMany(u => u.AssessmentSubmissions)
+                .HasForeignKey(s => s.UserId);
+
             //////seed data
 
             // Seed Roles
@@ -73,7 +88,7 @@ namespace LMS.Data
                     LastName = "Admin",
                     UserName = "admin",
                     Email = "admin@lms.com",
-                    PasswordHash = "hashed-admin", // Replace with real hash if needed
+                    PasswordHash = "JAvlGPq9JyTdtvBO6x2llnRI1+gxwIyPqCKAn3THIKk=", // Replace with real hash if needed
                     Age = 30,
                     Gender = "Female",
                     ContactNumber = "111-111-1111"
@@ -85,7 +100,7 @@ namespace LMS.Data
                     LastName = "Instructor",
                     UserName = "instructor",
                     Email = "instructor@lms.com",
-                    PasswordHash = "hashed-instructor",
+                    PasswordHash = "wUN6VfbpO3BJxAZK8bCSCXTjg6Q1KD9dCwSW7kqKR7U=",
                     Age = 35,
                     Gender = "Male",
                     ContactNumber = "222-222-2222"
@@ -97,7 +112,7 @@ namespace LMS.Data
                     LastName = "Student",
                     UserName = "student",
                     Email = "student@lms.com",
-                    PasswordHash = "hashed-student",
+                    PasswordHash = "cDsKPWrXW2SaKK3efYPGJR2kV1SSY7x/9F7HCbCoRIs=",
                     Age = 20,
                     Gender = "Other",
                     ContactNumber = "333-333-3333"
@@ -142,6 +157,43 @@ namespace LMS.Data
                     CourseId = 1,
                     CompletionStatus = "InProgress",
                     Grade = "B"
+                }
+            );
+
+            modelBuilder.Entity<Assessments>().HasData(
+       new Assessments
+       {
+           Id = 1,
+           Title = "C# Basics - Quiz 1",
+           CourseId = 1   // belongs to Course: C# Basics
+       },
+       new Assessments
+       {
+           Id = 2,
+           Title = "ASP.NET Core - Final Test",
+           CourseId = 2   // belongs to Course: ASP.NET Core
+       }
+   );
+
+            // --- Seed AssessmentSubmissions ---
+            modelBuilder.Entity<AssessmentSubmission>().HasData(
+                new AssessmentSubmission
+                {
+                    Id = 1,
+                    AssessmentId = 1,   // Quiz 1 (C# Basics)
+                    UserId = 3,         // Student: Charlie
+                    StartedAt = new DateTime(2025, 8, 20, 10, 0, 0),
+                    SubmittedAt = new DateTime(2025, 8, 20, 10, 30, 0),
+                    Score = 75
+                },
+                new AssessmentSubmission
+                {
+                    Id = 2,
+                    AssessmentId = 2,   // ASP.NET Core Final Test
+                    UserId = 3,         // Student: Charlie
+                    StartedAt = new DateTime(2025, 8, 22, 9, 0, 0),
+                    SubmittedAt = null, // Not submitted yet
+                    Score = null
                 }
             );
         }
