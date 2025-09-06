@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace LMS.Models
+namespace LMS.Models.SQL
 {
     public class Role
     {

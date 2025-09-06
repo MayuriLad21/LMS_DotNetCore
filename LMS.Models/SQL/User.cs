@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LMS.Models
+namespace LMS.Models.SQL
 {
     public class User
     {
@@ -22,5 +22,6 @@ namespace LMS.Models
         public ICollection<UserRole> UserRoles { get; set; }
         public ICollection<Course> CoursesTaught { get; set; }  // if instructor
         public ICollection<Enrollment> Enrollments { get; set; } // if student
+        public ICollection<AssessmentSubmission> AssessmentSubmissions { get; set; }
     }
 }

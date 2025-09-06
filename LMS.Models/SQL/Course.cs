@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace LMS.Models
+namespace LMS.Models.SQL
 {
     public class Course
     {
@@ -18,5 +18,6 @@ namespace LMS.Models
         // Navigation
         public User Instructor { get; set; }
         public ICollection<Enrollment> Enrollments { get; set; }
+        public ICollection<Assessments> Assessment { get; set; }
     }
 }

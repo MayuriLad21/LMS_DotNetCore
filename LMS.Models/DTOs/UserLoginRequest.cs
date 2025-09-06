@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMS.Models
+namespace LMS.Models.DTOs
 {
-    public class LoginRequest
+    public class UserLoginRequest 
     {
         /// <summary>
         /// 
         /// </summary>
-        public required string Username { get; set; }
+        public required string email { get; set; } 
         /// <summary>
         /// 
         /// </summary>

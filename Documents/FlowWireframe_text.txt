@@ -1,0 +1,92 @@
+Student LMS App – Wireframe with API Mapping
+🔑 Login / Registration
+
+Login Page
+
+Fields: Email, Password
+
+Buttons:
+
+Login → Dashboard → POST /api/auth/login (API1)
+
+New User? Register → Registration Page → POST /api/auth/register (API2)
+
+Forgot Password? → Password Reset Page → POST /api/auth/reset-password (API3)
+
+🏠 Dashboard
+
+Header
+
+Get logged-in user details → GET /api/users/me (API4)
+
+Sections
+
+Enrolled Courses
+
+Display → GET /api/courses/enrolled (API5)
+
+Button: Open Course → Course Details → GET /api/courses/{courseId} (API6)
+
+Recommended / Popular Courses
+
+Display → GET /api/courses/recommended (API7)
+
+Button: View Details → GET /api/courses/{courseId} (API6 again)
+
+Course History
+
+Display → GET /api/courses/history (API8)
+
+📚 Course Details Page
+
+Lecture Content → GET /api/courses/{courseId}/lectures (API9)
+
+About this Course → GET /api/courses/{courseId}/about (API10)
+
+Certification → GET /api/courses/{courseId}/certificate (API11)
+
+Notes
+
+Add Note → POST /api/courses/{courseId}/notes (API12)
+
+Get Notes → GET /api/courses/{courseId}/notes (API13)
+
+Q&A (Discussion)
+
+Ask Question → POST /api/courses/{courseId}/questions (API14)
+
+Get Questions/Answers → GET /api/courses/{courseId}/questions (API15)
+
+📝 Assessments
+
+Assessment List → GET /api/assessments (API16)
+
+Start Assessment → POST /api/assessments/{id}/start (API17)
+
+Submit Assessment → POST /api/assessments/{id}/submit (API18)
+
+View Results → GET /api/assessments/{id}/results (API19)
+
+📊 Progress Tracker
+
+List Progress → GET /api/progress (API20)
+
+Detailed Progress → GET /api/progress/{courseId} (API21)
+
+🔔 Notifications
+
+Get Notifications → GET /api/notifications (API22)
+
+Mark as Read → PUT /api/notifications/{id}/read (API23)
+
+👤 Profile
+
+Get Profile → GET /api/users/me (API4 reused)
+
+Update Profile → PUT /api/users/me (API24)
+
+⚙️ Settings
+
+Get Settings → GET /api/users/settings (API25)
+
+Update Settings → PUT /api/users/settings (API26)

@@ -1,4 +1,5 @@
 ﻿using LMS.Business;
+using LMS.Core.DTOs;
 using LMS.Core.Interfaces;
 using LMS.Data;
 using LMS.Models;
@@ -19,13 +20,13 @@ namespace LMS.Business.Services
             _context = context;
         }
 
-        public async Task<IEnumerable<CourseDto>> GetAllCoursesAsync()
+        public async Task<IEnumerable<StudentCourseDto>> GetAllCoursesAsync()
         {
             return await _context.Courses
                 .Include(c => c.Instructor)
-                .Select(c => new CourseDto
+                .Select(c => new StudentCourseDto
                 {
-                    Id = c.Id,
+                    CourseId = c.Id,
                     Title = c.Title,
                     Description = c.Description,
                     InstructorName = c.Instructor.FirstName + " " + c.Instructor.LastName,
@@ -33,6 +34,71 @@ namespace LMS.Business.Services
                     Duration = c.Duration
                 })
                 .ToListAsync();
+        }
+
+        public async Task<List<StudentCourseDto>> GetStudentEnrolledCoursesAsync(int userId)
+        {
+            return await _context.Enrollments
+                .AsNoTracking()
+                .Where(e => e.UserId == userId)
+                .Include(e => e.Course)
+                .Select(e => new StudentCourseDto
+                {
+                    CourseId = e.CourseId, 
+                    Title = e.Course.Title,
+                    Description = e.Course.Description,
+                    Duration = e.Course.Duration,
+                    Fees = e.Course.Fees,
+                    CompletionStatus = e.CompletionStatus,
+                    Grade = e.Grade
+                })
+                .ToListAsync();
+        }
+
+        public async Task<CourseDetailDto> GetCourseDetailsAsync(int courseId)
+        {
+            try
+            {
+                var couserdetails =  await _context.Courses
+               .AsNoTracking()
+               .Where(c => c.Id == courseId)
+               .Include(c => c.Instructor)
+               .Include(c => c.Enrollments)
+                   .ThenInclude(e => e.Student)
+               .Select(c => new CourseDetailDto
+               {
+                   Id = c.Id,
+                   Title = c.Title,
+                   Description = c.Description,
+                   Duration = c.Duration,
+                   Fees = c.Fees,
+                   Instructor = new InstructorDto
+                   {
+                       Id = c.Instructor.Id,
+                       UserName = c.Instructor.UserName,
+                       FirstName = c.Instructor.FirstName,
+                       LastName = c.Instructor.LastName,
+                       Email = c.Instructor.Email
+                   },
+                   EnrolledStudents = c.Enrollments.Select(e => new EnrolledStudentDto
+                   {
+                       Id = e.Student.Id,
+                       UserName = e.Student.UserName,
+                       FirstName = e.Student.FirstName,
+                       LastName = e.Student.LastName,
+                       CompletionStatus = e.CompletionStatus,
+                       Grade = e.Grade
+                   }).ToList()
+               })
+               .FirstOrDefaultAsync();
+                return couserdetails;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+           
         }
     }
 }
