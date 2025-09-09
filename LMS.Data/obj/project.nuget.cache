@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+pLg8uyp5eQ=",
+  "dgSpecHash": "raRimf9bOLk=",
   "success": true,
-  "projectFilePath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Data\\LMS.Data.csproj",
+  "projectFilePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Data\\LMS.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

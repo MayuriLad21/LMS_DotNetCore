@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HVjn5E7z9QE=",
+  "dgSpecHash": "IFQz+zNrcI0=",
   "success": true,
-  "projectFilePath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Models\\LMS.Models.csproj",
+  "projectFilePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Models\\LMS.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\mongodb.bson\\3.4.3\\mongodb.bson.3.4.3.nupkg.sha512",
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",

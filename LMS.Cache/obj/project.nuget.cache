@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z6Jd0D8gBb0=",
+  "dgSpecHash": "yBL3Of/jExE=",
   "success": true,
-  "projectFilePath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Cache\\LMS.Cache.csproj",
+  "projectFilePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Cache\\LMS.Cache.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

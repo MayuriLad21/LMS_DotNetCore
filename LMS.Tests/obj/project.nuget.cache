@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BZbLR8AjizU=",
+  "dgSpecHash": "cJpiWlqf9vY=",
   "success": true,
-  "projectFilePath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Tests\\LMS.Tests.csproj",
+  "projectFilePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Tests\\LMS.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\automapper\\15.0.1\\automapper.15.0.1.nupkg.sha512",
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -113,8 +113,10 @@
     {
       "code": "NU1608",
       "level": "Warning",
-      "warningLevel": 1,
       "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 15.0.1 was resolved.",
+      "projectPath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Tests\\LMS.Tests.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Tests\\LMS.Tests.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net9.0"

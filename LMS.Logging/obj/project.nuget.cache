@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e0rW4z0d6+0=",
+  "dgSpecHash": "+GEpeL09UYA=",
   "success": true,
-  "projectFilePath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Logging\\LMS.Logging.csproj",
+  "projectFilePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Logging\\LMS.Logging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\mayuri.lad\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0\\microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "61xWTEQ0qBc=",
+  "dgSpecHash": "AF1Uq2OITwU=",
   "success": true,
-  "projectFilePath": "C:\\Mayuri\\Projects\\LMS_DotNetCore\\LMS_Web\\LMS.Deploy\\LMS.Deploy.csproj",
+  "projectFilePath": "C:\\Mayuri\\Projects\\LMS-Core\\LMS_DotNetCore\\LMS.Deploy\\LMS.Deploy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
