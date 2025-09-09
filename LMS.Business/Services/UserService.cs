@@ -35,9 +35,6 @@ namespace LMS.Business.Services
             // compare with stored hash
             if (user.PasswordHash != hashedInput) {
 
-                user.PasswordHash = hashedInput;
-                _context.Users.Update(user);
-                 _context.SaveChanges();
                 throw new Exception("Invalid password");
 
             }

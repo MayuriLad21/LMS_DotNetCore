@@ -10,5 +10,6 @@ namespace LMS.Core.Interfaces
         Task<IEnumerable<StudentCourseDto>> GetAllCoursesAsync();
         Task<List<StudentCourseDto>> GetStudentEnrolledCoursesAsync(int userId); 
         Task<CourseDetailDto> GetCourseDetailsAsync(int courseId);
+        Task<StudentDashboardSummery> GetStudentDashboardSummeryAsync(int userId); 
     }
 }
