@@ -28,13 +28,15 @@ namespace LMS.WebApi.Controllers
         }
         [HttpGet("GetStudentEnrolledCourses")]
         public async Task<IActionResult> GetStudentEnrolledCourses() 
-        {
-            var userIdClaim = User.FindFirstValue("UserId");
+        {           
+
+            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrWhiteSpace(userIdClaim))
                 return Unauthorized("Missing UserId claim in token.");
 
             if (!int.TryParse(userIdClaim, out var userId))
                 return Unauthorized("Invalid UserId claim.");
+
 
             var courses = await _courseService.GetStudentEnrolledCoursesAsync(userId);
             return Ok(courses);
@@ -48,5 +50,17 @@ namespace LMS.WebApi.Controllers
             if (course == null) return NotFound("Course not found");
             return Ok(course);
         }
+
+        [HttpGet("GetStudentDashboardSummery")]
+        public async Task<IActionResult> GetStudentDashboardSummery() 
+        {
+            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrWhiteSpace(userIdClaim) || !int.TryParse(userIdClaim, out var userId))
+                return Unauthorized("Invalid or missing UserId claim.");
+
+            var summary = await _courseService.GetStudentDashboardSummeryAsync(userId);
+            return Ok(summary);
+        }
+
     }
 }

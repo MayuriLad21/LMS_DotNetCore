@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 using LMS.Models.Enums;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LMS.WebApi.Controllers
 {
@@ -34,10 +35,11 @@ namespace LMS.WebApi.Controllers
 
                 // 🔹 Create claims (add all roles for this user)
                 var claims = new List<Claim>
-            {
-                new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Email, user.Email ?? "")
-            };
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                    new Claim(ClaimTypes.Name, user.UserName),
+                    new Claim(ClaimTypes.Email, user.Email ?? "")
+                };
 
                 foreach (var role in user.UserRoles.Select(ur => ur.Role.RoleName))
                 {
@@ -53,6 +55,7 @@ namespace LMS.WebApi.Controllers
                     {
                         user.Id,
                         user.UserName,
+                        user.Email,
                         Roles = user.UserRoles.Select(ur => ur.Role.RoleName).ToList()
                     }
                 });
@@ -78,10 +81,11 @@ namespace LMS.WebApi.Controllers
 
                 // 🔹 Create claims (add all roles for this user)
                 var claims = new List<Claim>
-            {
+                {
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.Email, user.Email ?? "")
-            };
+                };
 
                 foreach (var role in user.UserRoles.Select(ur => ur.Role.RoleName))
                 {
@@ -105,12 +109,14 @@ namespace LMS.WebApi.Controllers
             }
         }
 
+
         [HttpGet("GetStudentProfile")]
+        [Authorize]
         public async Task<IActionResult> GetStudentUserProfile()
         {
             try
             {
-                var email = User.Identity?.Name;
+                //var email = User.Identity?.Name;
                // var userId1 = int.Parse(User.FindFirst("UserId").Value);
                 var userIdClaim = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
                 if (userIdClaim == null)
@@ -126,6 +132,12 @@ namespace LMS.WebApi.Controllers
                     user.Id,
                     user.UserName,
                     user.Email,
+                    user.FirstName,
+                    user.LastName,
+                    user.Age,
+                    user.Gender,
+                    user.ContactNumber, 
+                    user.CreatedDate,
                     Roles = user.UserRoles.Select(ur => ur.Role.RoleName).ToList()
                 });
             }
@@ -136,7 +148,9 @@ namespace LMS.WebApi.Controllers
             }
             
         }
+
         [HttpGet("GetUserProfile/{userID}")]
+        [Authorize]
         public async Task<IActionResult> GetUserProfileById(int userID) 
         {
             var user = await _userService.GetUserByIdAsync(userID);

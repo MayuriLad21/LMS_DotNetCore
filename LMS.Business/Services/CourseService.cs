@@ -100,5 +100,25 @@ namespace LMS.Business.Services
             }
            
         }
+
+        public async Task<StudentDashboardSummery> GetStudentDashboardSummeryAsync(int userId)
+        {
+            // Fetch all enrollments for the student
+            var enrollments = await _context.Enrollments
+                .Where(e => e.UserId == userId)
+                .Include(e => e.Course)
+                .ToListAsync();
+
+            var enrolled = enrollments.Count;
+            var completed = enrollments.Count(e => e.CompletionStatus == "Completed");
+            var inProgress = enrollments.Count(e => e.CompletionStatus == "InProgress");
+
+            return new StudentDashboardSummery
+            {
+                Enrolled= enrolled,
+               Completed= completed,
+                InProgress= inProgress
+            };
+        }
     }
 }

@@ -110,8 +110,21 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
+// Add CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReactApp",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") // React app URL
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
 
+app.UseCors("AllowReactApp");
 app.MapControllers();
 
 // Configure the HTTP request pipeline.
