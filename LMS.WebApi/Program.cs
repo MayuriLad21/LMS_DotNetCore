@@ -116,7 +116,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000", "https://<your-static-app-name>.azurestaticapps.net") // React app URL
+            policy.WithOrigins("http://localhost:3000", "https://polite-moss-0a293ed00.2.azurestaticapps.net") // React app URL
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
