@@ -128,8 +128,8 @@ app.UseCors("AllowReactApp");
 app.MapControllers();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.MapOpenApi();
     app.UseSwagger();  
     app.UseSwaggerUI(c =>
@@ -137,7 +137,7 @@ if (app.Environment.IsDevelopment())
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "LMS API v1");
         c.RoutePrefix = string.Empty; // 👈 makes Swagger UI the root page "/"
     });
-}
+//}
 
 app.UseHttpsRedirection();
 
